@@ -136,6 +136,9 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+        Illuminate\Html\HtmlServiceProvider::class,
+        Barryvdh\Debugbar\ServiceProvider::class,
+        Intervention\Image\ImageServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -193,6 +196,9 @@ return [
         'URL'       => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View'      => Illuminate\Support\Facades\View::class,
+        'Html'      => Illuminate\Html\HtmlFacade::class,
+        'Debugbar'  => Barryvdh\Debugbar\Facade::class,
+        'Image' =>  Intervention\Image\Facades\Image::class,  
 
     ],
 
